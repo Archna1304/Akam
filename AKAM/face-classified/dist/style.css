@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 3%;
+}
+
+canvas {
+  width: 350px;
+  height: 350px;
+  border: 2px solid rgb(48, 45, 45);
+  margin: 0 auto;
+  margin-top: 5%;
+  display: block;
+  border-radius: 10px;
+}
+
+input,
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: black;
+  padding: 10px;
+  border: 0;
+  outline: none;
+  background: rgb(134, 130, 130);
+  border-radius: 10px;
+}
+
+button {
+  color: rgb(245, 240, 240);
+  background: rgb(77, 74, 73);
+}
+
+.btn btn-primary d-block mx-auto {
+  color: rgb(245, 240, 240);
+  background: rgb(77, 74, 73);
+  align-items: Right;
+}

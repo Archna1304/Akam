@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calendar - Past Recording</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <h1 class="main-title">Past Recording</h1>
+  <div class="area"></div>
+  <div>
+    <nav class="main-menu">
+      <ul>
+        <li>
+          <a href="http://justinfarrow.com">
+            <i class="fa fa-home fa-2x"></i>
+            <span class="nav-text">
+              Face Classified
+            </span>
+          </a>
+
+        </li>
+        <li class="has-subnav">
+          <a href="#">
+            <i class="fa fa-laptop fa-2x"></i>
+            <span class="nav-text">
+              Live Recording
+            </span>
+          </a>
+
+        </li>
+        <li class="has-subnav">
+          <a href="#">
+            <i class="fa fa-list fa-2x"></i>
+            <span class="nav-text">
+              Past Recording
+            </span>
+          </a>
+        </li>
+
+        <ul class="logout">
+          <li>
+            <a href="#">
+              <i class="fa fa-power-off fa-2x"></i>
+              <span class="nav-text">
+                Logout
+              </span>
+            </a>
+          </li>
+        </ul>
+    </nav>
+  </div>
+  <html>
+
+  <body>
+
+    <div class="calander noselect">
+
+      <div class="cal_head paper-shadow-top-z-2">
+
+        <button class="button_left">
+          <i class="material-icons">keyboard_arrow_left</i></button>
+
+        <span id="month_label">Month</span>
+
+        <button class="button_right"><i class="material-icons">keyboard_arrow_right</i></button>
+
+      </div>
+
+
+      <div class="cal_body paper-shadow-bottom-z-1">
+
+        <table>
+          <tbody id="cal">
+          </tbody>
+        </table>
+      </div>
+
+      <div class="cal_output paper-shadow-top-z-1">
+        <span id="outputText"></span>
+      </div>
+
+
+    </div>
+  </body>
+
+  </html>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
